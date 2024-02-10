@@ -6,15 +6,15 @@ Config = Config or {}
 
 --DEFAULT CRAFT LOCATION:                   1176.08, 2635.15, 37.75
 
-Config.NotifyType = 'okok'                  -- notification type: 'qb' for qb-core standard notifications, 'okok' for okokNotify notifications
+Config.NotifyType = 'qb'                  -- notification type: 'qb' for qb-core standard notifications, 'okok' for okokNotify notifications
 
-Config.mzskills = true                      -- change to "false" if you wish to use this resource without using mz-skills
+Config.mzskills = false                      -- change to "false" if you wish to use this resource without using mz-skills
 
 Config.ScrapXPSkill = "Scraping"            -- Take the name of your scrap skill from mz-skills (make sure they are exactly the same)
 
-Config.debugScrapOpt = true                 -- Set to false to remove debugging prints from console (server sided)
+Config.debugScrapOpt = false                 -- Set to false to remove debugging prints from console (server sided)
 
-Config.SkillCheck = "ps"                    -- Change to "skillbar" to use skillbar parameters instead.
+Config.SkillCheck = "skillbar"                    -- Change to "skillbar" to use skillbar parameters instead.
 
 Config.SellLocation = {
     [1] = {
