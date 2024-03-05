@@ -18,13 +18,13 @@ Config.SkillCheck = "skillbar"                    -- Change to "skillbar" to use
 
 Config.SellLocation = {
     [1] = {
-            coords = vector3(-54.9, 6392.3, 31.62),
+            coords = vector3(2403.47, 3127.84, 48.15),
             length = 1.4,
             width = 0.5,
-            heading = 315,
-            debugPoly = false,
-            minZ = 29.02,
-            maxZ = 33.02,
+            heading = 69.42,
+            debugPoly = true,
+            minZ = 47.02,
+            maxZ = 49.02,
             distance = 1.0
         },
     }
