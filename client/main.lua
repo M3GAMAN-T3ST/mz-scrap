@@ -1883,12 +1883,12 @@ end
 -------------------
 
 CreateThread(function()
-    exports['qb-target']:AddBoxZone("sellcarpartszone", vector3(-54.9, 6392.3, 31.62), 1.4, 0.5, {
+    exports['qb-target']:AddBoxZone("sellcarpartszone", vector3(2403.47, 3127.84, 48.15), 1.4, 0.5, {
         name = "sellcarpartszone",
-        heading = 315,
+        heading = 69.42,
         debugPoly = false,
-        minZ = 29.02,
-        maxZ = 33.02,
+        minZ = 47.02,
+        maxZ = 49.02,
         drawDistance = 10.0
         }, {
             options = { 
@@ -1996,12 +1996,12 @@ end)
 -------------
 
 CreateThread(function()
-    exports['qb-target']:AddBoxZone("mzscrapcrafting", vector3(1176.08, 2635.15, 37.75), 3.6, 1, {
+    exports['qb-target']:AddBoxZone("mzscrapcrafting", vector3(2360.2, 3127.29, 48.21), 3.6, 1, {
         name = "mzscrapcrafting",
-        heading = 90,
+        heading = 262.75,
         debugPoly = false,
-        minZ = 34.35,
-        maxZ = 38.35,
+        minZ = 47.35,
+        maxZ = 49.35,
         drawDistance = 10.0
         }, {
             options = { 
