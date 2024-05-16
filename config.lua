@@ -14,7 +14,7 @@ Config.ScrapXPSkill = "Scraping"            -- Take the name of your scrap skill
 
 Config.debugScrapOpt = false                 -- Set to false to remove debugging prints from console (server sided)
 
-Config.SkillCheck = "skillbar"                    -- Change to "skillbar" to use skillbar parameters instead.
+Config.SkillCheck = "ps"                    -- Change to "skillbar" to use skillbar, change to "ps" to use ps-ui, change to "ox" to use ox_lib
 
 Config.SellLocation = {
     [1] = {
